@@ -4,7 +4,7 @@
 cd mylib
 cargo build --release
 cd ..
-cp mylib/target/release/libmylib.so .
+go build -ldflags="-r mylib/target/release"
 ./rust-go-ffi-test
 ```
 
