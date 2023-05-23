@@ -1,7 +1,7 @@
 package main
 
 /*
-#cgo LDFLAGS: -Lmylib/target/debug -lmylib
+#cgo LDFLAGS: -Lmylib/target/release -lmylib
 #include "./mylib.h"
 */
 import "C"

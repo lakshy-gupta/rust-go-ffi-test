@@ -2,6 +2,9 @@
 
 ```
 cd mylib
-cargo build
+cargo build --release
+cd ..
+cp mylib/target/release/libmylib.so .
+./rust-go-ffi-test
 ```
 
