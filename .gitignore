@@ -1,1 +1,3 @@
 .idea
+mylib/target
+mylib/Cargo.lock
