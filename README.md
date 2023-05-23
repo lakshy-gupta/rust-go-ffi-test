@@ -1,0 +1,1 @@
+# rust-go-ffi-test
